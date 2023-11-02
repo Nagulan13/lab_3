@@ -1,6 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 body {
     background-color: linen;
+    background-image: url(./images/batman.jpg);
+    background-repeat: no-repeat;
     }
+
+.wrapper{
+    display:flex;
+    flex-direction: column;
+    min-height: 400px;
+    background-color: transparent;
+    width: 80%;
+    margin: auto;
+}
 
 h1 {
     color: maroon;
