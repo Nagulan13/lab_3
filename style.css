@@ -49,7 +49,9 @@ body {
 }
 
 b {
-    font-size: x-small;
+    color: aliceblue;
+    text-align: center;
+    font-size:large;
     font-family:'Courier New', Courier, monospace;
 }
 
