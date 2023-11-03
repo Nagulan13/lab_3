@@ -7,7 +7,7 @@
 
 /* Settings for elements in body */
 body {
-    background-image: url(./images/batman.jpg);
+    background-image: url(./images/batman3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     }
@@ -17,41 +17,116 @@ body {
     display:flex;
     flex-direction: column;
     min-height: 670px;
-    background-color: rgb(0, 63, 130);
-    opacity: 0.5;
+    background-color: transparent;
     width: 80%;
     margin: auto;
-}
-
-.top {
-    min-height: 35px;
-    background-color: transparent;
+    margin-top: 10px;
 }
 
 .header {
-    background-color: #ECECEC;
-    min-height: 70px;
+    background-color: transparent;
+    min-height: 90px;
 }
 
 .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     min-height: 40px;
     background-color: #373b43;
+    justify-items: center;
+    align-items: center;
+}
+
+.titlepage {
+    color: #f1f1f1;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-direction: column;
+    flex-basis: 97%;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 3%;
+    margin: 12px;
+}
+
+.option > img {
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#b70000;
+    z-index: 1;
+    /*padding: 5px;*/
+}
+
+.option:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    color:black;
+    background-color: #f1f1f1;
 }
 
 .main {
     min-height: 510px;
     background-color: #000000;
+    opacity: 0.7;
 }
 
 .footer {
     min-height: 50px;
-    background-color: #410000;
+    background-color: black;
+    opacity: 0.7;
 }
 
-b {
+.center {
+    text-align: center;
+}
+
+.copyright {
     color: aliceblue;
     text-align: center;
-    font: size 10px;
+    font-size: 12px;
     font-family:'Courier New', Courier, monospace;
 }
 
+.center {
+    text-align: center;
+}
+
+.center > img {
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    transition: opacity 0.3s; /* Add a smooth transition effect */
+}
+
+.center .hover-img {
+    opacity: 0; /* Initially hide the hover image */
+    cursor: pointer; /* Set the cursor to pointer */
+}
+
+.center:hover .normal-img {
+    opacity: 0; /* Hide the normal image on hover */
+}
+
+.center:hover .hover-img {
+    opacity: 1; /* Show the hover image on hover */
+}
