@@ -26,6 +26,9 @@ body {
 .header {
     background-color: transparent;
     min-height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .navigation {
@@ -104,19 +107,19 @@ body {
 }
 
 .center {
-    text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 .center > img {
     width: 150px;
     height: 70px;
-    position: absolute;
     transition: opacity 0.3s; /* Add a smooth transition effect */
+    cursor: pointer; /* Set the cursor to pointer */
 }
 
 .center .hover-img {
     opacity: 0; /* Initially hide the hover image */
-    cursor: pointer; /* Set the cursor to pointer */
 }
 
 .center:hover .normal-img {
