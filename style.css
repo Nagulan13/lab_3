@@ -32,3 +32,8 @@ body {
     background-color: #ECECEC;
     min-height: 70px;
 }
+
+.footer{
+    min-height: 60px;
+    background-color: #ECECEC;
+}
