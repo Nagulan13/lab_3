@@ -51,7 +51,7 @@ body {
 b {
     color: aliceblue;
     text-align: center;
-    font-size:large;
+    font: size 10px;
     font-family:'Courier New', Courier, monospace;
 }
 
