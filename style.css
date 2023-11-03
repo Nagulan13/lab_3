@@ -109,17 +109,21 @@ body {
 .center {
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .center > img {
     width: 150px;
     height: 70px;
+    position: absolute;
+    top: 0;
+    left: 0;
     transition: opacity 0.3s; /* Add a smooth transition effect */
-    cursor: pointer; /* Set the cursor to pointer */
 }
 
 .center .hover-img {
     opacity: 0; /* Initially hide the hover image */
+    cursor: pointer; /* Set the cursor to pointer */
 }
 
 .center:hover .normal-img {
