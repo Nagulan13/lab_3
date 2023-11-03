@@ -23,7 +23,7 @@ body {
     margin: auto;
 }
 
-.top{
+.top {
     min-height: 35px;
     background-color: transparent;
 }
@@ -33,7 +33,18 @@ body {
     min-height: 70px;
 }
 
-.footer{
-    min-height: 60px;
-    background-color: #ECECEC;
+.navigation {
+    min-height: 40px;
+    background-color: #373b43;
 }
+
+.main {
+    min-height: 60px;
+    background-color: #000000;
+}
+
+.footer {
+    min-height: 60px;
+    background-color: #410000;
+}
+
