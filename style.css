@@ -1,15 +1,18 @@
+/* Full site settings */
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
+/* Settings for elements in body */
 body {
     background-image: url(./images/batman2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     }
 
+/* Settings for middel whole column */
 .wrapper {
     display:flex;
     flex-direction: column;
