@@ -7,7 +7,7 @@
 
 /* Settings for elements in body */
 body {
-    background-image: url(./images/batman31.jpg);
+    background-image: url(./images/batman.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     }
@@ -24,12 +24,12 @@ body {
 }
 
 .header {
+    display: flex;
+    flex-direction: column;
     background-color: transparent;
     min-height: 90px;
-    display: flex;
     align-items: center;
-    justify-content: center;
-}
+    }
 
 .navigation {
     display: flex;
@@ -68,7 +68,6 @@ body {
     position: absolute;
     background-color:#b70000;
     z-index: 1;
-    /*padding: 5px;*/
 }
 
 .option:hover .dropdown-content {
@@ -85,13 +84,44 @@ body {
 
 .dropdown-content a:hover {
     color:black;
-    background-color: #f1f1f1;
+    background-color: #f1f1f100;
 }
 
 .main {
     min-height: 510px;
-    background-color: #000000;
-    opacity: 0.7;
+    background-color: #ffffff07;
+}
+
+table {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    margin: 25px;
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+td {
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.name {
+    width: 80%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.profile {
+    width: 20%;
+    padding: 15px;
+    text-align: center;
+}
+
+.religion {
+    width: 22%;
 }
 
 .footer {
@@ -108,15 +138,9 @@ body {
 }
 
 .center {
-    
-}
-
-
-/*
-.center {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    position: relative;
 }
 
 .center > img {
@@ -139,4 +163,3 @@ body {
     opacity: 1; 
 }
 
-*/
