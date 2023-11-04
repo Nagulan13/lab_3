@@ -39,7 +39,7 @@ body {
     background-color: #373b43;
     justify-items: center;
     align-items: center;
-    opacity: 0.9;
+    opacity: 0.97;
 }
 
 .titlepage {
@@ -108,6 +108,12 @@ body {
 }
 
 .center {
+    
+}
+
+
+/*
+.center {
     display: flex;
     align-items: center;
     position: relative;
@@ -117,18 +123,20 @@ body {
     width: 150px;
     height: 70px;
     position: absolute;
-    transition: opacity 0.3s; /* Add a smooth transition effect */
+    transition: opacity 0.3s;
 }
 
 .center .hover-img {
-    opacity: 0; /* Initially hide the hover image */
-    cursor: pointer; /* Set the cursor to pointer */
+    opacity: 0; 
+    cursor: pointer; 
 }
 
 .center:hover .normal-img {
-    opacity: 0; /* Hide the normal image on hover */
+    opacity: 0;
 }
 
 .center:hover .hover-img {
-    opacity: 1; /* Show the hover image on hover */
+    opacity: 1; 
 }
+
+*/
