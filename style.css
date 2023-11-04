@@ -116,8 +116,6 @@ body {
     width: 150px;
     height: 70px;
     position: absolute;
-    top: 0;
-    left: 0;
     transition: opacity 0.3s; /* Add a smooth transition effect */
 }
 
