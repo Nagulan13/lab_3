@@ -39,6 +39,7 @@ body {
     background-color: #373b43;
     justify-items: center;
     align-items: center;
+    opacity: 0.9;
 }
 
 .titlepage {
